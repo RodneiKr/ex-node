@@ -4,7 +4,7 @@ const {Schema} = mongoose;
 
 const {serviceSchema} = require("./Service");
 
-const {partySchema} = new Schema(
+const partySchema = new Schema(
   {
     title: {
       type: String,

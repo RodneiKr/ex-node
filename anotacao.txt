@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=anMK76I2dUA
+
+docker run -it --rm --name ex-node -v /home/dados/workspace/ex-node:/usr/src/app -w /usr/src/app node:14 npm init -y
+su -
+cd /home/dados/workspace/ex-node; chmod 777 package.json; exit
+docker run -it --rm --name ex-node -v /home/dados/workspace/ex-node:/usr/src/app -w /usr/src/app node:14 npm i express mongoose cors
+docker run -it --rm --name ex-node -v /home/dados/workspace/ex-node:/usr/src/app -w /usr/src/app node:14 npm i -D nodemon
+vi app.js
+vi package.json
+docker compose up

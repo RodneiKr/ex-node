@@ -29,7 +29,7 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - /home/dados/workspace/node/backend:/usr/src/app
+      - /home/dados/workspace/ex-node:/usr/src/app
 
 volumes:
   db:

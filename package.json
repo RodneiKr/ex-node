@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "docker run -it --rm --name backend -v /home/dados/workspace/node/backend:/usr/src/app -w /usr/src/app node:14 npm init -y",
+  "description": "Exemplo Node com: mongodb, mongoose, express",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js"
